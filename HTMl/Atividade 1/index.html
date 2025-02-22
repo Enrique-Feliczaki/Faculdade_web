@@ -1,10 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Festival Sonora 2025</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align:center ;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+       
+    </style>
 </head>
 <body>
     <nav >
@@ -16,6 +34,7 @@
     </nav>
     <h1 class="cabecario">🎶 Festival Sonora 2025 🎶</h1>
     <img src="Sonora-Floripa-2017-1.webp" alt="Evento Sonora">
+    <h1>Informações</h1>
     <h3>📍 Local: Parque das Estrelas – São Paulo, SP</h3>
     <h3>📅 Data: 15 e 16 de junho de 2025</h3>
     <h3>🕒 Horário: 14h às 23h</h3>
@@ -45,28 +64,9 @@
         <li>Área VIP: R$ 300 (open bar e acesso exclusivo)</li>
         <li>Camarote: R$400 (open bar e acesso exclusivo + sala de recepção)</li>
         <li>Passaporte 2 Dias: R$ 200</li>
-
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                text-align:center ;
-            }
-            table {
-                width: 80%;
-                margin: 20px auto;
-            }
-            th, td {
-                border: 1px solid #ddd;
-                padding: 10px;
-            }
-            th {
-                background-color: #4CAF50;
-                color: white;
-            }
-           
-        </style>
-    </head>
-    <body>
+    </ul></h4>
+    
+        
     
         <h2>Programação do Festival Sonora 2025</h2>
     
@@ -107,6 +107,42 @@
                 <td>Palco Principal</td>
             </tr>
         </table>
-    </ul></h4>
-</body>
+        <video src="Screencast from 2025-02-22 20-10-55.webm"
+        controls
+        width="500px"
+        ></video>
+        <h5>Um spoiler de musica que tocaremos</h5>
+        <audio src="stylegold-alok-bruno-martini-feat-zeeba-hear-me-now-style-gold-remix-a151d52a.mp3" controls></audio>
+        <h1>Formulário</h1>
+        <p>Complete suas Informações</p>
+        <form>
+            <fieldset>
+                <div>
+                    <label>Nome</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label>Sobrenome</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input type="email">
+                </div>
+                <div>
+                    <label>Telefone</label>
+                    <input type="number">
+                </div>
+                <div>
+                    <label>Tipo de ingresso:</label>
+                    <label><input type="radio">Pista comum</label>
+                    <label > <input type="radio">Área VIP</label>
+                    <label> <input type="radio">Camarote</label>
+                </div>
+            </fieldset>
+            <input type="checkbox"> Receber atualizações por e-mail
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+
+    </body>
 </html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple css</title>
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- CSS Interno -->
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #dac6c6;
+            margin: 20px;
+            padding: 20px;
+        }
+        h1{
+            text-align: center;
+            color: blue;
+        }
+
+        .destaque{
+            color: green;
+            font-size: 18px;
+            border: 2px dashed red;
+            padding: 10px;
+
+        }
+        #especial{
+            background-color: yellow;
+            margin: 20px;
+            padding: 15px;
+            border: 2px solid black;
+        }
+     </style>
+    <h1>Batata 1, batata2, batata3</h1>
+    <!-- CSS Inline -->
+     <p style="color: blueviolet; font-size: 20px;">Batata1</p>
+    
+    <p class="destaque">Batata2</p>
+
+
+    <div id="especial">Batata em um bloco com id especifico</div>
+
+    <div class="externo">Batata em um bloco com css externo</div>
+</body>
+</html>

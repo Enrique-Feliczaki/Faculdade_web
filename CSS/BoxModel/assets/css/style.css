@@ -1,0 +1,44 @@
+/* Estilização geral do corpo da página */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+/* Cabeçalho da página */
+header{
+    background-color: #4caf50;
+    color: #ffff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilização do menu de navegação */
+nav ul{
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    background-color: #333;
+}
+
+nav ul li{
+    display: inline; /* exibe os itens da lista na mesma linha*/
+    margin: 15px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none; /*remove o sublinhado dos links*/
+    font-size: 18px; /*tamanho do fonte*/
+}
+
+/* ----- Classe ---- */
+.conteudo{
+    background-color: #fff;
+    margin: 20px auto;  /* centralizar a caixa e adiciona um espaçamento */
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /*adiciona sombra*/
+    border-radius: 8px;
+}

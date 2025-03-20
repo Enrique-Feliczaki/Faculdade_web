@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout com Grid e Pseudo-elementos</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: greenyellow;
+        }
+        /* Container principal usando Grid */
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 colunas de tamanho igual */
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        /* estilizar os itens */
+        .item{
+            background-color:darkgreen;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0.0.0.1);
+            position: relative;
+        }
+        /* Pseudo-classe */
+        .item:hover{
+            background-color: rgb(83, 167, 0);
+            transform: scale(1.05);
+            transition: 0.5s; /*animação*/
+        }
+        /* estilizar um filho específico */
+        .item:nth-child(2){
+            background-color: lime;
+        }
+
+        /* pseudo-elemento */
+        .item::before{
+            content: "🌴";
+            font-size: 20px;
+        }
+        .item::after{
+            content: "🍆";
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Item1</div>
+        <div class="item">Item2</div>
+        <div class="item">Item3</div>
+        <div class="item">Item4</div>
+        <div class="item">Item5</div>
+        <div class="item">Item6</div>
+    </div>
+</body>
+</html>

@@ -45,5 +45,39 @@ nav ul li a{
     padding: 20px;
     margin-right: 10px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
+.img{
+    width: 300px;
+}
+.sidebar{
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+footer{
+    background-color: #333;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Responsividade */
+@media(max-width:768px){
+    .container{
+        flex-direction: column;
+    }
+     .img{
+        margin: 20px;
+        text-align: center;
+        width: 300px;
+     }
+    .conteudo, .sidebar{
+        margin-right: 0; /*Remove a margin lateral*/
+    }
+}
+

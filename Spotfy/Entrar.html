@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - MúsicaApp</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <main class="quadro-principal">
+    <header class="topo-login">
+      <img src="assets/imagens/spotify.svg" alt="Logo" class="logo-imagem" />
+    </header>
+
+    <section class="area-login">
+      <h1 class="titulo-login">Log in to Spotify</h1>
+
+      <form class="formulario-autenticacao">
+        <label class="etiqueta-campo">
+          Email or username
+          <input type="text" class="campo-entrada" required />
+        </label>
+
+        <label class="etiqueta-campo">
+          Password
+          <input type="password" class="campo-entrada" required />
+        </label>
+
+        <div class="secao-opcoes">
+          <label class="lembrar">
+            <input type="checkbox" />
+            Remember me
+          </label>
+          <a href="#" class="link-esqueci">Forgot your password?</a>
+        </div>
+
+        <button type="submit" class="botao-entrar">Log In</button>
+
+        <div class="linha-ou">
+          <span class="linha"></span>
+          <span class="texto-ou">OR</span>
+          <span class="linha"></span>
+        </div>
+
+        <div class="botoes-sociais">
+          <button class="botao-social">Continue with Google</button>
+          <button class="botao-social">Continue with Facebook</button>
+          <button class="botao-social">Continue with Apple</button>
+        </div>
+
+        <div class="rodape-login">
+          <p class="mensagem-conta">
+            Don't have an account? <a href="#" class="link-inscrever">Sign up for MúsicaApp</a>
+          </p>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

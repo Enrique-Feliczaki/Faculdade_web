@@ -1,0 +1,367 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .quadro-principal {
+    width: 100%;
+    max-width: 400px;
+    background-color: #000;
+    padding: 40px;
+    border-radius: 8px;
+    margin-top: 60px; 
+  }
+  
+  .topo-login {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .logo-imagem {
+    max-width: 130px;
+  }
+  
+  .area-login {
+    width: 100%;
+  }
+  
+  .titulo-login {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .formulario-autenticacao {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .etiqueta-campo {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+  }
+  
+  .campo-entrada {
+    margin-top: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #282828;
+    color: #fff;
+  }
+  
+  .secao-opcoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+  }
+  
+  .lembrar input {
+    margin-right: 5px;
+  }
+  
+  .link-esqueci {
+    color: #1db954;
+    text-decoration: none;
+  }
+  
+  .link-esqueci:hover {
+    text-decoration: underline;
+  }
+  
+  .botao-entrar {
+    background-color: #1db954;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .botao-entrar:hover {
+    background-color: #1ed760;
+  }
+  
+  .linha-ou {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .linha {
+    flex: 1;
+    height: 1px;
+    background-color: #333;
+  }
+  
+  .texto-ou {
+    margin: 0 10px;
+    font-size: 12px;
+    color: #aaa;
+  }
+  
+  .botoes-sociais {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .botao-social {
+    background-color: transparent;
+    border: 1px solid #777;
+    padding: 10px;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .botao-social:hover {
+    background-color: #1db95420;
+  }
+  
+  .rodape-login {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+  }
+  
+  .link-inscrever {
+    color: #1db954;
+    text-decoration: none;
+  }
+  
+  .link-inscrever:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
+  .bloco-inscricao {
+    max-width: 480px;
+    width: 100%;
+    background-color: #000;
+    padding: 40px;
+    border-radius: 8px;
+  }
+  
+  .cabecalho-logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .imagem-logo {
+    max-width: 130px;
+  }
+  
+  .conteudo-inscricao {
+    width: 100%;
+  }
+  
+  .titulo-inscricao {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .formulario-inscricao {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .rotulo-campo {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+  }
+  
+  .campo-formulario {
+    padding: 10px;
+    background-color: #282828;
+    border: none;
+    border-radius: 4px;
+    margin-top: 5px;
+    color: white;
+  }
+  
+  .grupo-data {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+  }
+  
+  .campo-menor {
+    flex: 1;
+    padding: 10px;
+    background-color: #282828;
+    border: none;
+    border-radius: 4px;
+    color: white;
+  }
+  
+  .opcao-checkbox {
+    font-size: 13px;
+  }
+  
+  .texto-termos {
+    font-size: 12px;
+    color: #ccc;
+  }
+  
+  .link-termos {
+    color: #1db954;
+    text-decoration: none;
+  }
+  
+  .link-termos:hover {
+    text-decoration: underline;
+  }
+  
+  .botao-confirmar {
+    padding: 12px;
+    background-color: #1db954;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .botao-confirmar:hover {
+    background-color: #1ed760;
+  }
+  
+  .ja-possui-conta {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  
+  .link-login {
+    color: #1db954;
+    text-decoration: none;
+  }
+  
+  .link-login:hover {
+    text-decoration: underline;
+  }
+  
+  .cabecalho-ajuda {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+  }
+  
+  .logo-ajuda {
+    max-width: 120px;
+  }
+  
+  .quadro-ajuda {
+    width: 100%;
+    max-width: 900px;
+    padding: 30px 20px;
+  }
+  
+  .introducao-suporte {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .titulo-principal {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .subtitulo-principal {
+    font-size: 16px;
+    color: #bbb;
+    margin-bottom: 20px;
+  }
+  
+  .campo-pesquisa {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    background-color: #282828;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .lista-topicos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+  }
+  
+  .item-topico {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 12px;
+    transition: background-color 0.2s;
+  }
+  
+  .item-topico:hover {
+    background-color: #2a2a2a;
+    cursor: pointer;
+  }
+  
+  .icone-topico {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .titulo-topico {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .descricao-topico {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .rodape-ajuda {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+  }
+  
+  .link-ajuda-direta {
+    color: #1db954;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .link-ajuda-direta:hover {
+    text-decoration: underline;
+  }
+  
+  .faixa-vertical {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 6px;
+    height: 100vh;
+    background-color: #1db954;
+    z-index: 1000;
+  }
